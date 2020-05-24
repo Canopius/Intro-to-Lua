@@ -50,7 +50,7 @@ local userData -- Unable to provide example because: Userdata values cannot be c
 local thread = coroutine.wrap(func)() -- Thread
 
 ------------------- If -------------------
-print("IF") 
+print("\n-----If----\n")
 
 if 1 > 2 then  -- If the condition is met then the code inside will run, only one per if statement
     print("1 > 2, which universe are we in?")
@@ -71,7 +71,7 @@ x+y == 11 and not (z)
 ------------------- Loops -------------------
 
 -- For loop
-print("LOOPS:")
+print("\n-----Loops----\n")
 local ShoppingList = {"Pear", "Apple", "Bread", nil, "Milk"}
 
 for index = 1, #ShoppingList do  -- For loop (fastest out of this(numeric), pairs and ipairs)
@@ -134,9 +134,9 @@ not     Evaluates as the opposite of the condition
 ------------------- Math Libary -------------------
 
 -- Contains loads of functions for all types of maths, can google this E.g. 
-
-print("MathLibary: math.floor(1.24): ", math.floor(1.24))
-print("MathLibary: math.pi: ", math.pi)
+print("\n-----Math Libary----\n")
+print("math.floor(1.24): ", math.floor(1.24))
+print("math.pi: ", math.pi)
 
 ------------------- Funcitons -------------------
 
@@ -144,6 +144,6 @@ local function add(argument1, argument2)
     return argument1 + argument2
 end
 
-print("Functions")
+print("\n-----Functions----\n")
 
 print("2 + 5 = ".. add(2, 5))
