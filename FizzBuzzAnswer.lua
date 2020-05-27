@@ -2,8 +2,6 @@
     Author: Joshua Grey
     Date: 24/05/2020
 
-    CMD: lua FizzBuzz.lua
-
     Contents:
         Fizz Buzz
 
