@@ -138,7 +138,7 @@ print("\n-----Math Libary----\n")
 print("math.floor(1.24): ", math.floor(1.24))
 print("math.pi: ", math.pi)
 
-------------------- Funcitons -------------------
+------------------- Functions -------------------
 
 local function add(argument1, argument2)
     return argument1 + argument2
