@@ -46,7 +46,7 @@ local tab = {} -- table
 
 -- Adv
 local func = function() end -- Function
-local userData -- Unable to provide example because: Userdata values cannot be created or modified in Lua, only through the C API 
+local userData -- Unable to provide example because Userdata values cannot be created or modified in Lua, only through the C API 
 local thread = coroutine.wrap(func)() -- Thread
 
 ------------------- If -------------------
